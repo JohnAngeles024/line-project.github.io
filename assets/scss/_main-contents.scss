@@ -1,0 +1,256 @@
+.banner {
+    display: none;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+
+    .banner {
+        width: 100vw;
+        margin: auto;
+        padding-top: 1.302vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        &__heading {
+            font-size: 3.255vw;
+            font-weight: 600;
+            text-align: center;
+            font-family: SFPro, Arial, Noto Sans JP, Noto Sans KR, sans-serif;
+        }
+
+        &__text {
+            text-align: center;
+            margin-top: 2.604vw;
+        }
+
+        &__fig {
+            margin-top: 2.604vw;
+
+            position: relative;
+
+            img {
+                width: 100%;
+            }
+
+            figcaption {
+                text-align: center;
+                position: absolute;
+                width: 100%;
+                bottom: -3.516vw;
+                font-size: 3.255vw;
+
+                p {
+                    width: 50vw;
+                    background-color: #efedd8;
+                    margin: auto;
+                    padding: 1.302vw;
+                    font-size: 5.208vw;
+                }
+            }
+        }
+    }
+
+    .content {
+        width: 90%;
+        margin-top: 7.813vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        &__heading {
+            font-size: 5.859vw;
+            text-align: center;
+
+            &-sub {
+                font-size: 7.292vw;
+                margin-top: 1.302vw;
+                text-align: center;
+            }
+        }
+
+        &__text {
+            text-align: center;
+            margin-top: 3.906vw;
+            margin-bottom: 6.510vw;
+            font-size: 3.906vw;
+            font-weight: 500;
+            line-height: 1.7;
+        }
+
+        &__img {
+            width: 100%;
+            margin-bottom: 4.557vw;
+        }
+
+        &__list {
+            margin: 0 0 4.557vw 0;
+            width: 90%;
+            display: flex;
+            flex-direction: column;
+        }
+
+        &__item {
+            width: 80%;
+            margin-bottom: 1.302vw;
+
+            &:last-child {
+                margin-bottom: 0;
+            }
+
+            &:nth-child(odd) {
+                margin-left: 20%;
+            }
+
+            img {
+                width: 100%;
+            }
+        }
+
+        &__description {
+            text-align: justify;
+            width: 80%;
+            font-size: 2.865vw;
+            line-height: 1.7;
+        }
+
+        &-data {
+            width: 90%;
+            margin-top: 2.604vw;
+            padding: 3.906vw 0 3.906vw 0;
+            background: #efedd8;
+
+            &__wrapper {
+                padding-top: 2.604vw;
+                width: 80%;
+                margin: auto;
+            }
+
+            &__heading {
+                text-align: center;
+                font-weight: 900;
+                font-size: 3.255vw;
+
+            }
+
+            &__text {
+                font-size: 3.516vw;
+                margin-bottom: 1.302vw;
+
+                &--sub {
+                    font-size: 2.604vw;
+                }
+            }
+
+            &__list {
+                padding-top: 1.953vw;
+                margin-left: 2.865vw;
+            }
+
+            &__item {
+                margin-bottom: 1.302vw;
+                line-height: 1.7;
+                font-size: 2.995vw;
+                padding-left: 12px;
+                display: flex;
+                align-items: flex-start;
+
+                &:last-child {
+                    margin-bottom: 0;
+                }
+
+                &:nth-child(1) {
+                    &::before {
+                        content: "";
+                        background-image: url('../img/icon01.png');
+                        width: 3.255vw;
+                        height: 3.255vw;
+                        margin-top: 0.911vw;
+                        margin-left: -4.036vw;
+                        margin-right: 2.214vw;
+                        background-position: center;
+                        background-repeat: no-repeat;
+                        background-size: cover;
+
+                    }
+                }
+
+                &:nth-child(2) {
+                    &::before {
+                        content: "";
+                        background-image: url('../img/icon02.png');
+                        width: 3.255vw;
+                        height: 3.255vw;
+                        margin-top: 0.911vw;
+                        margin-left: -4.036vw;
+                        margin-right: 2.214vw;
+                        background-position: center;
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                    }
+                }
+
+                &:nth-child(3) {
+                    &::before {
+                        content: "";
+                        background-image: url('../img/icon03.png');
+                        width: 3.255vw;
+                        height: 3.255vw;
+                        margin-top: 0.911vw;
+                        margin-left: -4.036vw;
+                        margin-right: 2.214vw;
+                        background-position: center;
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                    }
+                }
+
+                &:nth-child(4) {
+                    &::before {
+                        content: "";
+                        background-image: url('../img/icon04.png');
+                        width: 3.255vw;
+                        height: 3.255vw;
+                        margin-top: 0.911vw;
+                        margin-left: -4.036vw;
+                        margin-right: 2.214vw;
+                        background-position: center;
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                    }
+                }
+            }
+
+            &__btn {
+                width: 30.990vw;
+                height: 7.813vw;
+                background-color: white;
+                color: #d27c59;
+                font-size: 3.906vw;
+                font-family: SFPro, Arial, Noto Sans JP, Noto Sans KR, sans-serif;
+                border-radius: 0.651vw;
+                border: none;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                &:nth-child(2) {
+                    margin-left: 1.953vw;
+                }
+
+                &-wrapper {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    padding-top: 2.604vw;
+                }
+            }
+        }
+    }
+}
