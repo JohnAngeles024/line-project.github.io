@@ -131,8 +131,15 @@
     
     <script>
 function myFunction() {
-  confirm("0550-82-3279");
-     window.open("tel:+4842566"); 
+    
+    var response = confirm("0550-82-3279");
+    
+if ( response == true )
+{
+   window.open("tel:+4842566"); 
+}else{
+   alert("A not fine choice!")
+}
 }
 </script>
 </body>
